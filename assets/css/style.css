@@ -16,6 +16,7 @@
 	## Client Div
 	## Why Div
 # Footer
+	## Social Div
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Global Styles
@@ -92,8 +93,10 @@ i{color: #FFF;}
     
 }
 /*Resize for 4k*/
-@media only screen and (min-width : 2000px) {
-	body{font-size: 30px;}
+@media only screen and (min-width : 1800px) {
+	body{font-size: 20px;}
+	.footer-div .container{width: 80%;}
+	.footer-div .container .footer-list{height: 16vw;}
 }
 
 /*=== Colors ===*/
@@ -246,7 +249,6 @@ a:active {
 .contact-nav{
 	display: inline-block;
 	float: right;
-	/*margin-top: 5px;*/
 }
 
 .contact-nav, .navbar-right{
@@ -327,7 +329,6 @@ a:active {
 	background-size: cover;
 
 	height: 100%;
-	/*padding-top: 5%;*/
 	text-align: center;
 }
 
@@ -459,23 +460,15 @@ a:active {
 	margin: 3em 0;
 }
 
-#client-row > div .thumbnail{
-	/*min-height: 400px;*/
-}
-
 /*=== Why Div ===*/
-.why-div{ 
-	text-align: center; 
-}
+.why-div{text-align: center;}
 
 .icon-img{
 	height: 10em;
 	margin: 0 auto;
 }
 
-.full-width > div{
-	margin-bottom: 4em;
-}
+.full-width > div{margin-bottom: 4em;}
 
 /*--------------------------------------------------------------
 # Footer
@@ -487,22 +480,16 @@ a:active {
 	padding-top: 3em;
 }
 
-.footer-div a{
-	color: #394054;
-}
+.footer-div a{color: #394054;}
 
-.footer-div a:visited{
-	color: #FF632B;
-}
+.footer-div a:visited{color: #FF632B;}
 
 .partners-div img{
 	height: 50px;
 	margin:2em auto;
 }
 
-.footer-links{
-	height: 350px;
-}
+.footer-links{height: 350px;}
 
 .link-overflow li{
 	width: 50%;
@@ -510,10 +497,7 @@ a:active {
     display: block;
 }
 
-.tenfold-legal {
-	/*text-align: center;*/
-	font-size: 10px;
-}
+.tenfold-legal {font-size: 10px;}
 
 .tenfold-legal > div{
 	margin: 3em 0;
@@ -525,7 +509,7 @@ a:active {
 	position: relative;
 	width: 350px;
     margin: 0 auto;
-    /*background-color: white;*/
+    padding: 0;
     border-radius: 3px 3px 0 0;
 }
 
@@ -533,6 +517,8 @@ a:active {
 	text-align: center;
     font-size: 2em;
     margin-top: 6px;
+    width: 100%;
+
 }
 
 .social-div > i,
