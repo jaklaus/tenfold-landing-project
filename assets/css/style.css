@@ -76,11 +76,7 @@ ul{padding: 0;}
     justify-content: space-around;
 
     min-height: 650px;
-	padding-bottom: 3em;
-}
-
-.vertical-align img{
-	margin: 2em 0;
+	padding: 3em 0;
 }
 
 .full-width {
@@ -404,7 +400,7 @@ a:active {
 	margin-bottom: 4em;
 }
 
-#insight-client img {
+.client-logo {
 	display: inline; 
 	height: 40px;
 	margin-bottom: 1em;
@@ -414,15 +410,15 @@ a:active {
 	margin-top: 2em;
 }
 
+.info-image{
+	max-width: 90%;
+	display: inline;
+	text-align: center;
+}
+
 /*=== Action Div ===*/
 .action-div{
 	text-align: right;
-}
-
-#action-client img{
-	display: inline;
-	height: 40px;
-	margin-bottom: 1em;
 }
 
 #action-info{
