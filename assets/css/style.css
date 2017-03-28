@@ -31,8 +31,7 @@ h5,
 h6 {
 	clear: both;
 	line-height: 1.3em;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin: 1em 0;
 }
 
 h1{
@@ -50,24 +49,13 @@ h3 {
 	font-weight: 600;
 }
 
-h4{
-	font-size: 1.7em;
+h4{font-size: 1.7em;}
 
-}
-
-p{
-	font-size: 1.2em;
-}
-
-
+p{font-size: 1.3em;}
 
 li{list-style: none;}
 
 ul{padding: 0;}
-
-@media only screen and (max-width : 992px) {
-	h3{margin: 2em 0;}
-}
 
 .vertical-align {
     display: flex;
@@ -76,7 +64,6 @@ ul{padding: 0;}
     justify-content: space-around;
 
     min-height: 650px;
-	padding: 3em 0;
 }
 
 .full-width {
@@ -85,18 +72,21 @@ ul{padding: 0;}
 
 .tenfold-container{
 	width: 90%; 
-	margin: 0 auto;
+	margin: 3em auto;
 }
 
 /*=== Mobile Globals ===*/
 @media only screen and (max-width : 992px) {
     body{
     	text-align: center;
-		font-size: 11px;
+		font-size: 12px;
     }
 	
 	a{font-size: 1.3em;}
+
     .tenfold-container{width: 95%;}
+
+    h3{margin: 2em 0;}
 }
 
 @media only screen and (min-width : 2000px) {
@@ -129,13 +119,13 @@ a {
 }
 
 a:visited {
-	color: #00A1E0;
+	color: #FF632B;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #00A1E0;
+	color: #FF632B;
 	text-decoration: none;
 }
 
@@ -232,6 +222,7 @@ a:active {
 .navbar-default{
 	background-color: #00A1E0;
 	border: 0px;
+	padding: 0 3em;
 }
 
 .navbar-brand img {
@@ -411,9 +402,13 @@ a:active {
 }
 
 .info-image{
-	max-width: 90%;
+	max-width: 100%;
 	display: inline;
 	text-align: center;
+}
+
+@media only screen and (max-width : 992px) {
+	.info-image{max-width: 85%;}
 }
 
 /*=== Action Div ===*/
@@ -464,6 +459,10 @@ a:active {
 .icon-img{
 	height: 10em;
 	margin: 0 auto;
+}
+
+.full-width > div{
+	margin-bottom: 4em;
 }
 
 /*--------------------------------------------------------------
