@@ -84,8 +84,10 @@ i{color: #FFF;}
     	text-align: center;
 		font-size: 12px;
     }
+    
     h3{margin: 2em 0;}
-	a{font-size: 1em;}
+	.navbar-default a{font-size: 1.4em;}
+	a {font-size: 1em;}
 
     .tenfold-container{width: 95%;}
     .container{padding-bottom: 4em;}
