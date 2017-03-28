@@ -1,0 +1,505 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global Styles
+	## Mobile Globals
+	## Colors
+	## Links
+	## Buttons
+	## Forms
+# Main Content
+	## Navbar
+	## Landing
+	## Diagram Div
+	## Insight Div
+	## Action Div
+	## Client Div
+	## Why Div
+# Footer
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Global Styles
+--------------------------------------------------------------*/
+html, body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	line-height: 1.3em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h1{
+	font-size: 4.5em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 3.5em;
+	font-weight: 200;
+}
+
+h3 {
+	font-size: 2.2em;
+	font-weight: 600;
+}
+
+h4{
+	font-size: 1.7em;
+
+}
+
+p{
+	font-size: 1.2em;
+}
+
+
+
+li{list-style: none;}
+
+ul{padding: 0;}
+
+@media only screen and (max-width : 992px) {
+	h3{margin: 2em 0;}
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+    min-height: 650px;
+	padding-bottom: 3em;
+}
+
+.vertical-align img{
+	margin: 2em 0;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.tenfold-container{
+	width: 90%; 
+	margin: 0 auto;
+}
+
+/*=== Mobile Globals ===*/
+@media only screen and (max-width : 992px) {
+    body{
+    	text-align: center;
+		font-size: 11px;
+    }
+	
+	a{font-size: 1.3em;}
+    .tenfold-container{width: 95%;}
+}
+
+@media only screen and (min-width : 2000px) {
+	body{font-size: 30px;}
+}
+
+/*=== Colors ===*/
+
+.tenfold-white{
+	color:#FFF;
+}
+
+.tenfold-blue{
+	color:#00A1E0;
+}
+
+.tenfold-dark-blue{
+	color:#394054;
+}
+.tenfold-orange{
+	color:#FF632B;
+}
+
+
+/*=== Links ===*/
+
+a {
+	color: #394054;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00A1E0;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #00A1E0;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #00A1E0;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+/*=== Buttons ===*/
+
+.btn{
+	background-color: #FF632B;
+	border:none;
+	color: #FFF;
+	border-radius: 3px;
+    white-space: initial;
+}
+
+.btn:hover{
+	background-color: #FFF;
+	/*border: 1px solid #FF632B;*/
+	color: #FF632B;
+}
+
+.btn-inverse{
+	background-color: #FFF;
+	border:none;
+	color: #FF632B;
+
+}
+
+.btn-inverse:hover{
+	background-color: #FF632B;
+	border:none;
+	color: #FFF;
+}
+
+.btn-transparent{
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-transparent:hover{
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	color: #FFF;
+}
+
+.input-group-btn{
+	font-size: 1em;
+}
+
+/*=== Forms ===*/
+.email-form{
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+.form-control, .btn{
+	height: 2.5em;
+	font-size: 1.3em;
+}
+
+.form-group, form button{
+	width: 60%;
+	margin: 0.5em auto;
+}
+
+@media only screen and (max-width : 768px) {
+	.btn-lg{
+		width: 80%;
+		margin: 1em 0;
+		height: auto;
+	}
+	.landing-btn{
+		width: initial;
+	}
+
+	.form-control, .btn{
+		font-size: 1.8em;
+	}
+}
+
+/*--------------------------------------------------------------
+# Main Content
+--------------------------------------------------------------*/
+
+/*=== Navbar ===*/
+
+.navbar-default{
+	background-color: #00A1E0;
+	border: 0px;
+}
+
+.navbar-brand img {
+	height: 30px;
+}
+
+@media only screen and (max-width : 768px) {
+	.navbar-brand img {
+		height: 15px;
+		margin-top: 10px;
+}
+}
+
+.navbar-nav li a {
+ /*line-height: 30px;*/
+}
+
+.navbar-collapse{
+	min-height: 70px;
+}
+
+.contact-nav{
+	display: inline-block;
+	float: right;
+	/*margin-top: 5px;*/
+}
+
+.contact-nav, .navbar-right{
+	margin-top: 8px;
+}
+
+.mobile-contact{
+	position: relative;
+    float: right;
+    margin-top: 21px;
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a {color: #FFF;}
+.navbar-default .navbar-nav>li>a:hover {color: #394054;}
+
+.navbar-default .navbar-toggle {
+	border-color: white;
+	margin-top: 17px;
+}
+	
+.navbar-default .navbar-toggle .icon-bar{background-color: white;}
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover{
+	background-color: #FFF;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+	background-color: #FF632B;
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+	font-size: 1em;
+	color: #FFF;
+}
+
+.navbar-default .btn-group{
+	margin: 0 1em;
+}
+
+.navbar-default .navbar-toggle{
+	border-color: transparent;
+	color: 
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+	background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar{
+	background-color: #FF632B;
+}
+
+.navbar-default .btn{
+	height: 2.2em;
+	font-size: 1em;
+}
+
+.logo-img {
+	height: 40px;
+}
+
+/*=== Landing Styles ===*/
+
+.landing {
+	
+	background: url(images/landing-background.png) no-repeat  ; 
+	background-position: 50% 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	height: 100%;
+	/*padding-top: 5%;*/
+	text-align: center;
+}
+
+.landing-content{
+	padding-top: 5em;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.landing-content h3{
+	margin: 2em 0;
+}
+
+@media only screen and (max-width : 762px) {
+	.landing{
+		min-height: 100vh;
+		padding-top: 2em;
+		background-image: none;
+		background-color: #00A1E0;
+	}
+	.landing-content{
+		width: 100%;
+		text-align: center;
+		font-size: 8px;
+	}
+	.email-form{
+		max-width: 90%;
+	}
+
+	.form-group, form button{
+	width: 90%;
+	}
+}
+
+/*=== Diagram Div ===*/
+.diagram-div{
+	text-align: center;
+}
+
+#diagram-img{
+	width: 80%;
+    margin: 4em auto;
+}
+
+#diagram-img img{
+	width: 100%;
+}
+
+.clients-img{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+/*=== Insight Div ===*/
+.insight-div{
+	background-color: #00A1E0;
+}
+
+#insight-info{
+	margin-bottom: 4em;
+}
+
+#insight-client img {
+	display: inline; 
+	height: 40px;
+	margin-bottom: 1em;
+}
+
+#insight-client, #action-client{
+	margin-top: 2em;
+}
+
+/*=== Action Div ===*/
+.action-div{
+	text-align: right;
+}
+
+#action-client img{
+	display: inline;
+	height: 40px;
+	margin-bottom: 1em;
+}
+
+#action-info{
+	margin-bottom: 2em;
+}
+
+@media only screen and (max-width : 992px) {
+	.action-div{
+		text-align: center;
+	}
+}
+
+
+/*=== Client Div ===*/
+.client-div{
+	background-color: #00A1E0;
+	text-align: center;
+}
+
+.client-div img {
+	margin: 2em auto;
+}
+
+.logo-img {
+	height: 30px;
+	width: auto;
+}
+
+.client-img {
+	height: 70px;
+	border-radius: 50%;
+}
+
+#client-row{
+	margin: 3em 0;
+}
+
+/*=== Why Div ===*/
+.why-div{ 
+	text-align: center; 
+}
+
+.icon-img{
+	height: 10em;
+	margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+/*=== Footer Div ===*/
+.footer-div{
+	background-color: #f5f5fa;
+	padding: 3em 0;
+}
+
+.partners-div img{
+	width: 200px;
+	margin:2em auto;
+}
+
+.footer-links{
+	height: 350px;
+}
+
+.link-overflow li{
+	width: 50%;
+    float: left;
+    display: block;
+}
+
+.tenfold-legal {
+	text-align: center;
+	font-size: 10px;
+}
+
+.tenfold-legal > div{
+	margin: 3em 0;
+}
