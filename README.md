@@ -16,8 +16,8 @@ Utilize html preview by going to this link https://htmlpreview.github.io/?https:
 
 * [HTML]()
 * [CSS]()
-* [Bootstrap](http://getbootstrap.com/) - Used to generate RSS Feeds
-* [FontAwesome](http://fontawesome.io/) - Used to generate RSS Feeds
+* [Bootstrap](http://getbootstrap.com/)
+* [FontAwesome](http://fontawesome.io/)
 
 ## Authors
 
