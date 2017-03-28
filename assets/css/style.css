@@ -84,10 +84,10 @@ i{color: #FFF;}
     	text-align: center;
 		font-size: 12px;
     }
-    
+
     h3{margin: 2em 0;}
-	.navbar-default a{font-size: 1.4em;}
-	a {font-size: 1em;}
+	.navbar-default a{font-size: 1.2em;}
+	a {font-size: 0.8em;}
 
     .tenfold-container{width: 95%;}
     .container{padding-bottom: 4em;}
@@ -466,7 +466,7 @@ a:active {
 .why-div{text-align: center;}
 
 .icon-img{
-	height: 10em;
+	height: 9em;
 	margin: 0 auto;
 }
 
@@ -509,7 +509,7 @@ a:active {
 
 .navbar-fixed-bottom{
 	position: relative;
-	width: 350px;
+	width: 300px;
     margin: 0 auto;
     padding: 0;
     border-radius: 3px 3px 0 0;
