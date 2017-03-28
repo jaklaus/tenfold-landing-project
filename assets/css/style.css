@@ -57,6 +57,8 @@ li{list-style: none;}
 
 ul{padding: 0;}
 
+i{color: #FFF;}
+
 .vertical-align {
     display: flex;
     align-items: center;
@@ -115,13 +117,14 @@ ul{padding: 0;}
 /*=== Links ===*/
 
 a {
-	color: #394054;
+	color: #FF632B;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #FF632B;
+	color: rgb(255, 173, 143);
 }
+
 
 a:hover,
 a:focus,
@@ -234,10 +237,6 @@ a:active {
 		height: 15px;
 		margin-top: 10px;
 	}
-}
-
-.navbar-nav li a {
- /*line-height: 30px;*/
 }
 
 .navbar-collapse{
@@ -460,6 +459,10 @@ a:active {
 	margin: 3em 0;
 }
 
+#client-row > div .thumbnail{
+	/*min-height: 400px;*/
+}
+
 /*=== Why Div ===*/
 .why-div{ 
 	text-align: center; 
@@ -481,7 +484,15 @@ a:active {
 /*=== Footer Div ===*/
 .footer-div{
 	background-color: #f5f5fa;
-	padding: 3em 0;
+	padding-top: 3em;
+}
+
+.footer-div a{
+	color: #394054;
+}
+
+.footer-div a:visited{
+	color: #FF632B;
 }
 
 .partners-div img{
@@ -506,4 +517,25 @@ a:active {
 
 .tenfold-legal > div{
 	margin: 3em 0;
+}
+
+/*Social Div*/
+
+.navbar-fixed-bottom{
+	position: relative;
+	width: 350px;
+    margin: 0 auto;
+    /*background-color: white;*/
+    border-radius: 3px 3px 0 0;
+}
+
+.social-div{
+	text-align: center;
+    font-size: 2em;
+    margin-top: 6px;
+}
+
+.social-div > i,
+.social-div > a{
+	margin: 0 6px;
 }
