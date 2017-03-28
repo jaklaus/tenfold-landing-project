@@ -93,7 +93,7 @@ i{color: #FFF;}
     
 }
 /*Resize for 4k*/
-@media only screen and (min-width : 1800px) {
+@media only screen and (min-width : 2100px) {
 	body{font-size: 20px;}
 	.footer-div .container{width: 80%;}
 	.footer-div .container .footer-list{height: 16vw;}
