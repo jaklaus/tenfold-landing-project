@@ -130,19 +130,10 @@ a:visited {
 	color: rgb(255, 173, 143);
 }
 
-
 a:hover,
 a:focus,
 a:active {
 	text-decoration: underline;
-}
-
-a:focus {
-	color: #00A1E0;
-}
-
-a:hover,
-a:active {
 	outline: 0;
 }
 
@@ -186,15 +177,7 @@ a:active {
 	color: #FFF;
 }
 
-.input-group-btn{
-	font-size: 1em;
-}
-
 /*=== Forms ===*/
-.email-form{
-	max-width: 60%;
-	margin: 0 auto;
-}
 
 .form-control, .btn{
 	height: 2.5em;
@@ -212,10 +195,6 @@ a:active {
 		margin: 1em 0;
 		height: auto;
 	}
-	.landing-btn{
-		width: initial;
-	}
-
 	.form-control, .btn{
 		font-size: 1.8em;
 	}
@@ -387,13 +366,9 @@ a:active {
 
 
 /*=== Insight Div ===*/
-.insight-div{
-	background-color: #00A1E0;
-}
+.insight-div{background-color: #00A1E0;}
 
-#insight-info{
-	margin-bottom: 4em;
-}
+#insight-info{margin-bottom: 4em;}
 
 .client-logo {
 	display: inline; 
@@ -412,24 +387,14 @@ a:active {
 	margin-top: 4em;
 }
 
-.img-vertical-align{
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 @media only screen and (max-width : 992px) {
 	.info-image{max-width: 85%;}
 }
 
 /*=== Action Div ===*/
-.action-div{
-	text-align: right;
-}
+.action-div{text-align: right;}
 
-#action-info{
-	margin-bottom: 2em;
-}
+#action-info{margin-bottom: 2em;}
 
 @media only screen and (max-width : 992px) {
 	.action-div{
@@ -458,9 +423,7 @@ a:active {
 	border-radius: 50%;
 }
 
-#client-row{
-	margin: 3em 0;
-}
+#client-row{margin: 3em 0;}
 
 /*=== Why Div ===*/
 .why-div{text-align: center;}
@@ -501,9 +464,7 @@ a:active {
 
 .tenfold-legal {font-size: 10px;}
 
-.tenfold-legal > div{
-	margin: 3em 0;
-}
+.tenfold-legal > div{margin: 3em 0;}
 
 /*Social Div*/
 
@@ -524,6 +485,4 @@ a:active {
 }
 
 .social-div > i,
-.social-div > a{
-	margin: 0 6px;
-}
+.social-div > a{margin: 0 6px;}
